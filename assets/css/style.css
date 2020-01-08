@@ -1,0 +1,178 @@
+/*header bar*/
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: solid;
+    border-color: #cccccc;
+}
+
+/*first and last name on header*/ 
+h1 {
+    float: left;
+    padding: 25px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    margin-left: 215px;
+}
+
+/* navigation bar */
+.navbar {
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    margin-top: 25px;
+    margin-right: 215px;
+  }
+  
+.about {
+      padding: 15px;
+      color: #777777;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+    } 
+.about:hover {
+        color: #4aaaa5; 
+        font-size: 20px;
+    }
+
+.portfolio {
+    border-left: solid;
+    border-right: solid;
+    border-width: thin;
+    color: #777777;
+    padding: 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+} 
+.portfolio:hover {
+    color: #4aaaa5; 
+    font-size: 20px;
+}
+
+.contact {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+} 
+.contact:hover {
+    color: #4aaaa5; 
+    font-size: 20px;
+}
+
+/*about section*/
+body {
+    background-image: url("../images/contemporary_china.png");
+    background-repeat: repeat-x repeat-y;
+} 
+
+.mainContent {
+    border: solid;
+    border-width: 1px;
+    padding: 25px;
+    margin-top: 25px;
+    color: #777777;
+    background: white;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+}
+h2 {
+    padding: 15px 10px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid;
+    border-color: #cccccc;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-top: 20px;
+    position: relative; 
+    display: inline;
+    line-height: 2.5;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+} 
+
+.picture {
+    margin-top: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+/*contact section*/
+.title {
+    margin-left: 15px;
+    padding: 10px 0px 3px 0px;
+}
+.name {
+    width: 700px;
+    margin-left: 15px;
+    height: 20px;
+}
+.emailAddress {
+    width: 700px;
+    margin-left: 15px;
+    height: 20px;
+}
+.textArea {
+    width: 700px;
+    height: 200px;
+    margin-left: 15px;
+}
+.submitBtn {
+    background-color: #4aaaa5;
+    margin-left: 15px;
+}
+.submitBtn:hover {
+    color: #ffffff;
+    font-size: 12px;
+
+}
+
+/*portfolio section*/
+.project{
+    position: relative;
+    display: inline-block; 
+    padding: 20px 15px;
+}
+.project .bannerText{
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    padding: 10px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #fff;
+    width: 73%;
+}
+
+/*footer*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+/* footer border */
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: thick;
+ }
+
