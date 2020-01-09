@@ -188,6 +188,7 @@ p {
 
 /* responsive styles */
 @media screen and (max-width: 980px) {
+    /*about section*/
     h1 {
         margin-left: 40px;
     }
@@ -200,17 +201,48 @@ p {
     .mainContent {
         padding: 20px;
         margin-top: 20px;
-        max-width: 800px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+        width: 400px;
+    }
+    p {
+        margin-top: 20px;
+        line-height: 2;
+        font-size: 14px;
+    }
+    /*portfolio section*/
+    .projectPicture {
+        width: 170px;
+        height: 125px;
+    }
+    .project .bannerText {
+        top: 60%;
+        padding: 10px;
+        font-size: 14px;
+        width: 75%;
+    }
+    /*contact section*/
+    .name {
+        width: 350px;
+    }
+    
+    .emailAddress {
+        width: 350px;
+    }
+    
+    .textArea {
+        width: 350px;
     }
 }
 
 @media screen and (max-width: 768px) {
+    /*about section*/
     h1 {
         margin-left: 20px;
     }
     .navbar {
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 25px;
         margin-top: 25px;
         margin-right: 50px;
@@ -218,7 +250,8 @@ p {
     .mainContent {
         padding: 20px;
         margin-top: 20px;
-        max-width: 700px;
+        margin-left: 45px;
+        width: 650px;
     }
     h2 {
         font-size: 25px;
@@ -226,20 +259,49 @@ p {
     p {
         font-size: 14px;
     }
+    /*portfolio section*/
+     .projectPicture {
+        width: 300px;
+        height: 250px;
+    }
+    .project {
+        padding: 10px;
+    }
+    .project .bannerText {
+        top: 70%;
+        padding: 20px;
+        font-size: 16px;
+        width: 80%;
+    }
+    /*contact section*/
+    .name {
+        width: 600px;
+    }
+    
+    .emailAddress {
+        width: 600px;
+    }
+    
+    .textArea {
+        width: 600px;
+    }
 }
 
 @media screen and (max-width: 640px) {
+    /*about section */
     h1 {
         padding: 20px;
         width: 100%;
         margin-left: 0px;
+        margin-right: 0px;
         text-align: center;
     }
     .navbar {
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 25px;
         margin-top: 25px;
+        margin-bottom: 10px;
         margin-right: 175px;
     }
     .mainContent {
@@ -256,7 +318,86 @@ p {
     .picture {
         margin-top: 0px;
         float: none;
-        margin-left: 150px;
-        
+        margin-left: 120px;
+        width: 275px;
+        height: 275px;
     }
+    /*portfolio section*/
+    .projectPicture {
+        width: 450px;
+        height: 300px;
+    }
+    .project .bannerText {
+        top: 70%;
+        padding: 20px;
+        font-size: 16px;
+        width: 85%;
+    }
+    /*contact section*/
+    .name {
+        width: 450px;
+    }
+    
+    .emailAddress {
+        width: 450px;
+    }
+    
+    .textArea {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+/*about section */
+h1 {
+    width: 100%;
+}
+.navbar {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+.mainContent {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    max-width: 275px;
+}
+h2 {
+    font-size: 25px;
+}
+p {
+    font-size: 14px;
+}
+.picture {
+    margin-top: 0px;
+    margin-left: 120px;
+    width: 150px;
+    height: 150px;
+}
+/*portfolio section*/
+.projectPicture {
+    width: 250px;
+    height: 200px;
+}
+.project .bannerText {
+    top: 65%;
+    padding: 20px;
+    font-size: 16px;
+    width: 78%;
+}
+/*contact section*/
+.name {
+    width: 250px;
+}
+
+.emailAddress {
+    width: 250px;
+}
+
+.textArea {
+    width: 250px;
+}
 }
